@@ -10,7 +10,9 @@ def _factory(module_name, url_prefix):
     return module
 
 default_module = _factory('default.controllers', '/')
+product_module = _factory('products.controllers', '/products')
 
 all_modules = (
     default_module,
+    product_module
 )
