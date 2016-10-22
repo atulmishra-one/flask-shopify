@@ -20,6 +20,26 @@
 	padding:10px;
 	font-size:12px;
 }
+.product_post_list{
+	margin-top:30px;
+	margin-bottom:30px;
+	border:1px solid #CCC;
+	border-radius:4px;
+	padding:12px;
+	background: #FDFDFD;
+}
+.product_post_list h3 {
+	margin-top:0px;
+	margin-bottom:30px;
+}
+
+.product_post_list img {
+	height: 200px;
+}
+
+div.row.product_post_list{
+	margin-bottom:60px;
+}
 
 
 
