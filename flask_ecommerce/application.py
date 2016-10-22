@@ -7,6 +7,7 @@ from flask_ecommerce.services.database import sqlalchemy
 
 def initialize_app(config_obj):
     app = Flask(__name__)
+    app.config.from_object(config_obj)
 
     for module in all_modules:
         import_module(module.import_name)
