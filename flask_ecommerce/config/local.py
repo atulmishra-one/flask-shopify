@@ -1,3 +1,5 @@
-DEBUG = True
+from flask_ecommerce.config.base import Base
 
-SERVER_NAME = 'localhost'
+
+class LocalConfig(Base):
+    DATABASE_URI = ''
