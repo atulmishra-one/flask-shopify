@@ -12,7 +12,7 @@ def _factory(module_name, url_prefix, subdomain=''):
 
 default_module = _factory('default.controllers', '/')
 product_module = _factory('products.controllers', '/products')
-admin_module = _factory('admin.controllers', '/', 'admin')
+admin_module = _factory('admin.controllers', '/admin')
 
 all_modules = (
     default_module,

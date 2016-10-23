@@ -4,4 +4,4 @@ from flask_ecommerce.config.local import LocalConfig
 
 flask_ecommerce = initialize_app(LocalConfig)
 
-flask_ecommerce.run(threaded=True, port=80)
+flask_ecommerce.run(threaded=True)
